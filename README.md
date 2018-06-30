@@ -1,8 +1,16 @@
-# 052018sprint-rt-fennec-gplay-oi
+# 052018sprint-rt-fennec-gplay-oi aka "Experiment 2"
+("Experiment 1" was March 2018)
 * Post End of May 2018 Firefox for Android aka Fennec Google Play Store Review Replying Sprint
 * a clone of https://github.com/rtanglao/rt-open-innovation-fennec-gplay
 
 ## 30June2018
+
+### 30June2018-5 should have 500 review replies from experiment 1 and 2000 from experiment 2 i.e. 2500 replies
+* unfortunately we only get 1420, missing over 1000?!?! from the following query
+```js
+{"Developer Reply Text": {$ne: null} }
+```
+
 
 ### 30June2018-4 just in case re-run may and june 2018
 
