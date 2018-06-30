@@ -14,6 +14,10 @@
 ```
 
 #### 30June2018-5-2 Experiment 2 developer_last_updated_time after may 15, 2018
+* The following query yields 930 reviews replied (the CSV for these 930 replies is here: ) for experiment 2:
+```js
+{"Developer Reply Text": {$ne: null}, "Developer Reply Date and Time": {$gte: "2018-05-16T00:00:00Z" }}
+```
 
 ### 30June2018-5 should have 500 review replies from experiment 1 and 2000 from experiment 2 i.e. 2500 replies
 * unfortunately we only get 1420, missing over 1000?!?! from the following query
