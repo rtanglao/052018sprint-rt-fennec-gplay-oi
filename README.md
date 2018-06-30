@@ -6,7 +6,7 @@
 
 ### 30June2018-2 find the reviews replied during experiment 2 which was roughly May 26 - June 16, 2018
 
-* use the mongodb query using NoSQL Manager for MongoDB Professional 30 day free trial
+* generate a CSV file using a mongodb query using NoSQL Manager for MongoDB Professional 30 day free trial (or any other tool free or otherwise that will generate CSV files; you can also write code in ruby other languages to do this which i've done in the past but i'm lazy so I'm using NoSQL Manager :-) )
 
 ### 30June2018-1 read the CSVs from google play into the database
 
