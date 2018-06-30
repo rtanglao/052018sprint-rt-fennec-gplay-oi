@@ -1,6 +1,6 @@
 # 052018sprint-rt-fennec-gplay-oi aka "Experiment 2"
 ("Experiment 1" was March 2018)
-* Post End of May 2018 Firefox for Android aka Fennec Google Play Store Review Replying Sprint
+* End of May 2018 - early June 2018  Firefox for Android aka Fennec Google Play Store Review Replying Sprint
 * a clone of https://github.com/rtanglao/rt-open-innovation-fennec-gplay
 
 ## 30June2018
