@@ -1,5 +1,9 @@
 # 052018sprint-rt-fennec-gplay-oi
-Post End of May 2018 Firefox for Android aka Fennec Google Play Store Review Replying Spint
+* Post End of May 2018 Firefox for Android aka Fennec Google Play Store Review Replying Sprint
+* a clone of https://github.com/rtanglao/rt-open-innovation-fennec-gplay
+
+## 30June2018
+
 ## 28June2018
 
 ```bash
