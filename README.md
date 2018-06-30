@@ -7,9 +7,9 @@
 
 ### 30June2018-5 see how many reviews had developer replies for experiment 1 and experiment 2
 
-#### 30June2018-5 Experiment 1 developer_last_updated_time before may 15, 2018
+#### 30June2018-5-1 Experiment 1 developer_last_updated_time before may 15, 2018
 
-#### 30June2018-5 Experiment 2 developer_last_updated_time after may 15, 2018
+#### 30June2018-5-2 Experiment 2 developer_last_updated_time after may 15, 2018
 
 ### 30June2018-5 should have 500 review replies from experiment 1 and 2000 from experiment 2 i.e. 2500 replies
 * unfortunately we only get 1420, missing over 1000?!?! from the following query
