@@ -4,6 +4,10 @@
 
 ## 30June2018
 
+```bash
+ . setupDatabase
+ ```
+
 ## 28June2018
 
 ```bash
