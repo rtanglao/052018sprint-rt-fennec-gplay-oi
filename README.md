@@ -7,6 +7,15 @@
 ### 30June2018-3 Add november 2017 - april 2018 reviews
 * november2017 to april2018 reviews are here: november2017-april-2018-fennec-gplay-reviews.zip
 
+```bash
+ ./read-reviews-replies.rb utf8-downloaded-30june2018-november2017-fennec-gplay-reviews.csv 2>30june2018-november2017-stderr.txt
+ ./read-reviews-replies.rb utf8-downloaded-30june2018-december2017-fennec-gplay-reviews.csv 2>30june2018-december2017-stderr.txt
+ ./read-reviews-replies.rb utf8-downloaded-30june2018-january2018-fennec-gplay-reviews.csv 2>30june2018-january2018-stderr.txt
+ ./read-reviews-replies.rb utf8-downloaded-30june2018-february2018-fennec-gplay-reviews.csv 2>30june2018-february2018-stderr.txt
+ ./read-reviews-replies.rb utf8-downloaded-30june2018-march2018-fennec-gplay-reviews.csv 2>30june2018-march2018-stderr.txt
+ ./read-reviews-replies.rb utf8-downloaded-30june2018-april2018-fennec-gplay-reviews.csv 2>30june2018-april2018-stderr.txt
+```
+
 ### 30June2018-2 find the reviews replied during experiment 2 which was roughly May 26 - June 16, 2018
 
 * generate a CSV file using a mongodb query using NoSQL Manager for MongoDB Professional 30 day free trial (or any other tool free or otherwise that will generate CSV files; you can also write code in ruby other languages to do this which i've done in the past but i'm lazy so I'm using NoSQL Manager :-) 
