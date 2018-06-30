@@ -6,7 +6,12 @@
 
 ### 30June2018-2 find the reviews replied during experiment 2 which was roughly May 26 - June 16, 2018
 
-* generate a CSV file using a mongodb query using NoSQL Manager for MongoDB Professional 30 day free trial (or any other tool free or otherwise that will generate CSV files; you can also write code in ruby other languages to do this which i've done in the past but i'm lazy so I'm using NoSQL Manager :-) )
+* generate a CSV file using a mongodb query using NoSQL Manager for MongoDB Professional 30 day free trial (or any other tool free or otherwise that will generate CSV files; you can also write code in ruby other languages to do this which i've done in the past but i'm lazy so I'm using NoSQL Manager :-) 
+
+```js
+# shows all reviews that have non NULL reply text, this only shows 322, bug in my program or all reviews not uploaed?
+{"Developer Reply Text": {$ne: null} }
+```
 
 ### 30June2018-1 read the CSVs from google play into the database
 
