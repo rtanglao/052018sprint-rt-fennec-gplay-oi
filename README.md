@@ -14,7 +14,7 @@
 ```
 
 #### 30June2018-5-2 Experiment 2 developer_last_updated_time after may 15, 2018
-* The following query yields 930 reviews replied (the CSV for these 930 replies is here: ) for experiment 2:
+* The following query yields 930 reviews replied (the CSV for these 930 replies is here: https://github.com/rtanglao/052018sprint-rt-fennec-gplay-oi/blob/master/experiment2-930-replies-missing-approx1000-replies-reviews.csv ) for experiment 2:
 ```js
 {"Developer Reply Text": {$ne: null}, "Developer Reply Date and Time": {$gte: "2018-05-16T00:00:00Z" }}
 ```
