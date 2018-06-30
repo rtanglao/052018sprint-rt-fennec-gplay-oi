@@ -8,7 +8,7 @@
 ### 30June2018-5 see how many reviews had developer replies for experiment 1 and experiment 2
 
 #### 30June2018-5-1 Experiment 1 developer_last_updated_time before may 15, 2018
-* The following query yields 490 reviews replied for experiment 1:
+* The following query yields 490 reviews replied (the CSV for these 490 replies is here: https://github.com/rtanglao/052018sprint-rt-fennec-gplay-oi/blob/master/experiment1-replies-reviews.csv ) for experiment 1:
 ```js
 {"Developer Reply Text": {$ne: null}, "Developer Reply Date and Time": {$lt: "2018-05-16T00:00:00Z" }}
 ```
