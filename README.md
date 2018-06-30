@@ -6,6 +6,7 @@
 
 ```bash
  . setupDatabase
+ ./read-reviews-replies.rb utf8-downloaded-29june2018-may2018-fennec-gplay-reviews.csv 2>30june2018-may2018-stderr.txt
  ```
 
 ## 28June2018
