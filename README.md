@@ -4,6 +4,13 @@
 
 ## 30June2018
 
+### 30June2018-4 just in case re-run may and june 2018
+
+```bash
+./read-reviews-replies.rb utf8-downloaded-29june2018-may2018-fennec-gplay-reviews.csv 2>run2-30june2018-may2018-stderr.txt
+./read-reviews-replies.rb utf8-downloaded-29june2018-june2018-fennec-gplay-reviews.csv 2>run2-30june2018-june2018-stderr.txt
+```
+
 ### 30June2018-3 Add november 2017 - april 2018 reviews
 * november2017 to april2018 reviews are here: november2017-april-2018-fennec-gplay-reviews.zip
 
