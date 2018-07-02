@@ -7,10 +7,14 @@
 
 ### 02July2018-1 DateTime field comparison requires ISODate() or $date
 
-* The following 2 queries are equivalent, just using string comparison doesn't work on a DateTime field, curiously enough it works on  string version of that field!
+* The following two MongoDB queries are equivalent, just using string comparison doesn't work on a DateTime field, curiously enough it works on  string version of that field! Which one is better I don't know?!?!? maybe query 2 since it is shorter to type :-) ?!?!?
 * query 1:
 ```js
 {"Developer Reply Text": {$ne: null}, 'developer_last_updated_time': {$gte: { $date: "2018-05-16T00:00:00Z"} }}
+```
+* query 2
+```js
+{"Developer Reply Text": {$ne: null}, 'developer_last_updated_time': {$gte: ISODate("2018-05-16T00:00:00Z") }}
 ```
 
 ## 30June2018
