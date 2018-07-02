@@ -3,6 +3,16 @@
 * End of May 2018 - early June 2018  Firefox for Android aka Fennec Google Play Store Review Replying Sprint
 * a clone of https://github.com/rtanglao/rt-open-innovation-fennec-gplay
 
+## 02July2018
+
+### 02July2018-1 DateTime field comparison requires ISODate() or $date
+
+* The following 2 queries are equivalent, just using string comparison doesn't work on a DateTime field, curiously enough it works on  string version of that field!
+* query 1:
+```js
+{"Developer Reply Text": {$ne: null}, 'developer_last_updated_time': {$gte: { $date: "2018-05-16T00:00:00Z"} }}
+```
+
 ## 30June2018
 
 ### 30June2018-5 see how many reviews had developer replies for experiment 1 and experiment 2
