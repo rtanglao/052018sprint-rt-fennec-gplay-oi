@@ -12,7 +12,7 @@
 ```js
 {"Developer Reply Text": {$ne: null}, 'developer_last_updated_time': {$gte: { $date: "2018-05-16T00:00:00Z"} }}
 ```
-* query 2
+* query 2:
 ```js
 {"Developer Reply Text": {$ne: null}, 'developer_last_updated_time': {$gte: ISODate("2018-05-16T00:00:00Z") }}
 ```
