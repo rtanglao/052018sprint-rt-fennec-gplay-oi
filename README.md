@@ -4,7 +4,7 @@
 * a clone of https://github.com/rtanglao/rt-open-innovation-fennec-gplay
 
 ## 13July2018
-### 13July2018 refresh with last batch of uploaded review rplies
+### 13July2018 refresh with last batch of uploaded review replies
 
 * 1\. download the november 2017-july2018 csvs from the google play store console
 * 2\. iconv from utf16 to utf8
