@@ -3,6 +3,14 @@
 * End of May 2018 - early June 2018  Firefox for Android aka Fennec Google Play Store Review Replying Sprint
 * a clone of https://github.com/rtanglao/rt-open-innovation-fennec-gplay
 
+## 15July2018
+### 15July2018-Get Reviews replied to during Experiment 2
+* The following query yields 930 reviews replied (the CSV for these 930 replies is here: https://github.com/rtanglao/052018sprint-rt-fennec-gplay-oi/blob/master/experiment2-930-replies-missing-approx1000-replies-reviews.csv ) for experiment 2:
+```js
+{"Developer Reply Text": {$ne: null}, 'developer_last_updated_time': {
+  '$gte': ISODate("2018-05-16T00:00:00Z") }}
+```
+
 ## 13July2018
 ### 13July2018 refresh with last batch of uploaded review replies
 
