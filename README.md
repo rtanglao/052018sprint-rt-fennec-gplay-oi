@@ -24,8 +24,8 @@ zip -e downloaded-15july2018-november2017-july2018-reviews.zip  utf8-downloaded-
 * 3\. add to the database
 
 ```bash
- ./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201711.csv 2>15july2018-november2017-stderr.txt
-
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201711.csv 2>15july2018-november2017-stderr.txt
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201712.csv 2>15july2018-december2017-stderr.txt
 
 ```
 
