@@ -5,7 +5,7 @@
 
 ## 15July2018
 ### 15July2018-Get Reviews replied to during Experiment 2
-* The following query yields 930 reviews replied (the CSV for these 1407 replies is here: ( https://github.com/rtanglao/052018sprint-rt-fennec-gplay-oi/blob/master/15july2018-run-experiment2-1407-replies-to-reviews.csv ) for experiment 2:
+* The following query yields 1407 reviews replied (the CSV for these 1407 replies is here: ( https://github.com/rtanglao/052018sprint-rt-fennec-gplay-oi/blob/master/15july2018-run-experiment2-1407-replies-to-reviews.csv ) for experiment 2:
 ```js
 {"Developer Reply Text": {$ne: null}, 'developer_last_updated_time': {'$gte': ISODate("2018-05-16T00:00:00Z") }}
 ```
