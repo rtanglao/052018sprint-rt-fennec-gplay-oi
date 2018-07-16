@@ -7,6 +7,11 @@
 ### 13July2018 refresh with last batch of uploaded review replies
 
 * 1\. download the november 2017-july2018 csvs from the google play store console
+
+```bash
+zip -e downloaded-15july2018-november2017-july2018.zip  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox*.csv
+```
+
 * 2\. iconv from utf16 to utf8
 * 3\. add to the database
 
