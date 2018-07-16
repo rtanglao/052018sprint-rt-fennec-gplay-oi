@@ -7,13 +7,22 @@
 ### 13July2018 refresh with last batch of uploaded review replies
 
 * 1\. download the november 2017-july2018 csvs from the google play store console
+* 2\. iconv from utf16 to utf8 and create archive
 
 ```bash
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201711\(1\).csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201711.csv
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201712\(1\).csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201712.csv
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201801\(1\).csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201801.csv
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201802\(1\).csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201802.csv
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201803\(1\).csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201803.csv
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201804\(1\).csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201804.csv
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201805.csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201805.csv
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201806.csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201806.csv
+iconv -f UTF-16 -t UTF-8 utf16-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201807.csv >  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201807.csv
 zip -e downloaded-15july2018-november2017-july2018-reviews.zip  utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox*.csv
 ```
-
-* 2\. iconv from utf16 to utf8
 * 3\. add to the database
+
 
 ## 02July2018
 
