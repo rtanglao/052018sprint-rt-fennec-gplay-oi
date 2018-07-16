@@ -26,7 +26,13 @@ zip -e downloaded-15july2018-november2017-july2018-reviews.zip  utf8-downloaded-
 ```bash
 ./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201711.csv 2>15july2018-november2017-stderr.txt
 ./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201712.csv 2>15july2018-december2017-stderr.txt
-
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201801.csv 2>15july2018-january2018-stderr.txt
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201802.csv 2>15july2018-february2018-stderr.txt
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201803.csv 2>15july2018-march2018-stderr.txt
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201804.csv 2>15july2018-april2018-stderr.txt
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201805.csv 2>15july2018-may2018-stderr.txt
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201806.csv 2>15july2018-june2018-stderr.txt
+./read-reviews-replies.rb utf8-downloaded-15july2018-reviews_reviews_org.mozilla.firefox_201807.csv 2>15july2018-july2018-stderr.txt
 ```
 
 
